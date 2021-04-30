@@ -1,0 +1,38 @@
+/* 
+- At least 1 CSS class
+- At least 1 CSS id
+- Style at least 1 child element by first selecting its parent element in CSS
+- Only CSS styling (no HTML inline styling) 
+*/
+
+h1.font {
+    color: darkgreen; /* Make the main headline dark green. */
+}
+.font {
+    font-family: 'Georgia'; /* Use the font family "Georgia" for the main headline and the sub-headline. */
+}
+.font {
+    text-align: center; /* Center the text of the main headline and the sub-headline. */
+}
+.height, #decor {
+    line-height: 25px; /* Give the paragraphs a line height of 25 pixels. */
+}
+a:link {
+    text-decoration: none; /* Remove the underline from the links. */
+}
+#decor {
+    text-transform: uppercase; /* Make the "You might also like" label all uppercase. */
+}
+a:hover {
+    text-decoration: underline; /* Make an underline appear when you hover over a link. */
+}
+img {
+    float: left;
+    padding-right: 25px; /* Add space around image */
+}
+#decor {
+    padding-top: 20px;
+}
+div > ul {
+    padding-left: 345px; /* Add space around image */
+}

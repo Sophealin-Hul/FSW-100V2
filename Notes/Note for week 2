@@ -1,0 +1,11 @@
+CSS = Cascading Style Sheets, you can use css to style your web page. Use css with html.
+Basically, without css your html web page will look blend with only a couples of block letter style and bold letters. CSS will change that in whatever way you can imagine.
+* document is usually a text file structured using a markup language.
+* presenting a document to a user means converting into a form usable by your audience.
+* browsers is somwtimes called a user agent, which means a computer program that represents a person inside a computer system. browsers are the main type of user agent we think of when talking about css,
+however it is not the only one. like you can convert html and css into pdf and print it out.
+
+
+HTML is a the most common markup language but there're a couple more too such as SVG or XML.
+
+ 

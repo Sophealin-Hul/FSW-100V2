@@ -1,0 +1,20 @@
+html = hyper-text mark-up langugage:
+
+
+
+block & inline element :
+block = always start a new line, has a top and bottom margin and take the full width. Meaning it will strect as far left or right as possible.
+inline = does not start a new line and only take as much width as need too.
+
+
+<div> is a block element.
+<div> element is often use as a container for other html elements.
+<div> had no require attribute but style, class and id are common.
+use together with css it can be used to style block of content.
+
+
+<span> is an inline element. <span> normaly use inside paragraph.
+<span> is an inline element used to mark up part of the text, or part of a document.
+<span> use together with css can be used to style  part of the text.
+
+
