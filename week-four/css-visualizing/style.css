@@ -1,0 +1,71 @@
+body {
+    font-family: 'Cormorant Garamond';
+    background-color: lightcyan;
+}
+a {
+    text-decoration: none;
+}
+.navBar {
+    float: right;
+    font-family: Courier;
+    font-size: large;
+}
+.bussHeader {
+    font-weight: bolder;
+    color: lightpink;
+    font-size: large;
+}
+.bussMain {
+    text-align: center;
+    font-size: 18px;
+}
+.bussMain > ul {
+    list-style-type: none;
+}
+.bussImg > img {
+    width: 500px;
+    padding: 10px;
+}
+.bussMain2 {
+    background-color: lightpink;
+    text-align: center;
+    text-decoration: underline;
+    margin: 15px;
+}
+
+.bussQ > ul {
+    list-style: none;
+    font-size: 25px;
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+.bussMessage {
+    margin: 20px;
+    color: lightslategrey;
+    text-align: center;
+    font-size: 25px;
+}
+.bussPhoto > img {
+    margin: 10px;
+    padding-left: 250px;
+    float: left;
+    width: 250px;
+    
+}
+
+.bussFooter {
+    margin: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 18px;
+
+}
