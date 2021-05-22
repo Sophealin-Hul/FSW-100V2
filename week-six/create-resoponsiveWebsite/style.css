@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #36453B;
+}
+header {
+    color: grey;
+    font-family: 'Palatino';
+    text-align: center;
+    background-color: #001B2E;
+    max-width: 900px;
+    margin: 0 auto;
+}
+nav {
+    max-width: 900px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: #001B2E;
+}
+a:hover {
+    color: #0FFF95;
+}
+.barContent {
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.barMessage {
+    display: grid;
+    grid-template-columns: 250px, auto;
+    grid-template-rows: 1fr;
+    flex-basis: 400px;
+}
+.barMessageImg {
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.barMessageImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.barMessagePara {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #001B2E;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #8B94A3
+}
+.barSchedule {
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    flex-basis: 400px;
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmVhY2glMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    background-size: 100% auto;
+    font-size: 17px;
+}
+.barHappyHours {
+    text-align: center;
+    color: #2B2D42;
+    grid-row: 1 / 2;
+}
+.barHappyHours ul {
+    list-style: none;
+    font-weight: bolder;
+}
+table {
+    grid-row: 2 / 3;
+    border-collapse: collapse;
+    
+}
+  
+td, th {
+    border: 1px solid gray;
+    color: #2B2D42;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive ;
+}
+footer {
+    background-color: #605770;
+    color: #9E7682;
+    margin: 0 auto;
+    max-width: 900px;
+}
+@media screen and (max-width: 400px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .barMessageImg {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .barMessageImg {
+        display: none;
+    }
+}
+
